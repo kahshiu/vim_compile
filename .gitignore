@@ -1,0 +1,6 @@
+*
+!.gitignore
+!LICENSE
+!README.md
+!compile.bat
+!win32.mak
