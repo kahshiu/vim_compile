@@ -11,6 +11,6 @@
 6. replace outputs into appropriate dir .exe
 
 # References:
-[blog by Michael Giuffrida](http://blog.mgiuffrida.com/2015/06/27/building-vim-on-windows.html)
-[vim's official note](https://vim.fandom.com/wiki/Build_Vim_in_Windows_with_Visual_Studio)
+* [blog by Michael Giuffrida](http://blog.mgiuffrida.com/2015/06/27/building-vim-on-windows.html)
+* [vim's official note](https://vim.fandom.com/wiki/Build_Vim_in_Windows_with_Visual_Studio)
 
