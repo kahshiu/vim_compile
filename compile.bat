@@ -19,14 +19,14 @@ set DIR_VIM=C:\my_vim\vim-master\vim-master\src
 set DIR_PYTHON=C:\Users\kschong\AppData\Local\Programs\Python\Python37
 set SDK_INCLUDE_DIR=C:\Program Files (x86)\Windows Kits\10\Include
 
-set DYNAMIC_PYTHON3=yes
-set PYTHON3=%DIR_PYTHON%
-set PYTHON3_VER=37
+rem set DYNAMIC_PYTHON3=yes
+rem set PYTHON3=%DIR_PYTHON%
+rem set PYTHON3_VER=37
 
-:: Enable Python scripting
-rem set DYNAMIC_PYTHON=yes
-rem set PYTHON=C:\Python27
-rem set PYTHON_VER=27
+Enable Python scripting
+set DYNAMIC_PYTHON=yes
+set PYTHON=C:\Python27
+set PYTHON_VER=27
 
 echo "Configuring Visual Studio..."
 
