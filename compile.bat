@@ -15,12 +15,13 @@ set NETBEANS=no
 set MBYTE=yes
 
 set DIR_VC=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community
-set DIR_VIM=C:\vim_src\vim-master\src
-set DIR_PYTHON=C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_64
+rem vim source folder
+set DIR_VIM=C:\vim_source\vim\src
+set DIR_PYTHON3=C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_64
 set SDK_INCLUDE_DIR=C:\Program Files (x86)\Windows Kits\10\Include
 
 set DYNAMIC_PYTHON3=yes
-set PYTHON3=%DIR_PYTHON%
+set PYTHON3=%DIR_PYTHON3%
 set PYTHON3_VER=37
 
 rem Enable Python scripting
@@ -33,7 +34,6 @@ echo "Configuring Visual Studio..."
 cd %DIR_VIM% 
 
 call "%DIR_VC%\VC\Auxiliary\Build\vcvarsall.bat" %TOOLCHAIN%
-call "%DIR_VC%\VC\Tools\MSVC\14.20.27508\bin\Hostx86\x86\nmake.exe" -f "%DIR_VIM%\Make_mvc.mak"
-
+call "%DIR_VC%\VC\Tools\MSVC\14.24.28314\bin\Hostx64\x64\nmake.exe" -f "%DIR_VIM%\Make_mvc.mak"
 rem call "%DIR_VC%\VC\Tools\MSVC\14.20.27508\bin\Hostx86\x86\nmake.exe" -f "%DIR_VIM%\Make_mvc.mak" clean
 pause
